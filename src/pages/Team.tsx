@@ -1,33 +1,33 @@
 const team = [
   {
-    name: 'Arjun Mehta',
-    affiliation: 'Former IAS, Ministry of Food',
-    contribution: 'Arjun designed the original beneficiary entitlement framework, drawing on 15 years of field experience with the Public Distribution System.',
+    name: 'Krishnan Raghunathan',
+    initials: 'KR',
+    affiliation: 'Founder',
+    contribution: 'Sustainable infrastructure veteran with 25+ years across consumer goods, Silicon Valley, McKinsey, and Macquarie, leading platform vision and strategy.',
   },
   {
-    name: 'Priya Krishnan',
-    affiliation: 'MIT Media Lab, Civic Technology',
-    contribution: 'Priya leads the biometric integration layer, ensuring Aadhaar-based authentication meets both the security and the dignity requirements of the programme.',
+    name: 'Prof. Sanjay Sarma',
+    initials: 'SS',
+    affiliation: 'Founder',
+    contribution: 'Senior Professor at MIT, AI and battery technology expert, co-founder of Auto-ID Center pioneering RFID standards, guiding technology development for Praapt.',
   },
   {
-    name: 'Rahul Desai',
-    affiliation: 'Ex-NPCI, Payments Infrastructure',
-    contribution: 'Rahul architected the settlement rails that enable real-time vendor payments without cash exposure at the point of service.',
+    name: 'Nagenendra Kolluru',
+    initials: 'NK',
+    affiliation: 'Platform Lead',
+    contribution: 'Leading the efforts for Praapt platform development and core infrastructure.',
   },
   {
-    name: 'Sunita Patel',
-    affiliation: 'Azim Premji Foundation',
-    contribution: 'Sunita runs beneficiary onboarding and vendor quality assurance across all active cities, managing ground operations for the programme.',
+    name: 'Darshan Veershetty',
+    initials: 'DV',
+    affiliation: 'Design Lead',
+    contribution: 'Leading the user interface and user experience design, website design, and visual identity.',
   },
   {
-    name: 'Kiran Rao',
-    affiliation: 'IIT Bombay, Distributed Systems',
-    contribution: 'Kiran built the append-only ledger that provides tamper-evident records for every meal redemption in the system.',
-  },
-  {
-    name: 'Deepa Nair',
-    affiliation: 'Chartered Accountant, Impact Finance',
-    contribution: 'Deepa manages donor compliance, tax receipts (80G/FCRA), and coordinates with the government audit framework.',
+    name: 'Anand Chillar',
+    initials: 'AC',
+    affiliation: 'Architecture Lead',
+    contribution: 'Architect building out the first generation platform with focus on system design and scalability.',
   },
 ]
 
@@ -53,7 +53,7 @@ export default function Team() {
       {/* Team Grid */}
       <div style={{ maxWidth: 1120, margin: '0 auto', padding: '4rem 1.5rem' }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
-          {team.map(({ name, affiliation, contribution }) => (
+          {team.map(({ name, initials, affiliation, contribution }) => (
             <div key={name} style={{
               border: '1px solid var(--rule)',
               borderRadius: 8,
@@ -67,7 +67,7 @@ export default function Team() {
                 color: 'white', fontWeight: 700, fontSize: '1.1rem',
                 marginBottom: '1rem',
               }}>
-                {name.split(' ').map(n => n[0]).join('')}
+                {initials}
               </div>
               <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.2rem', color: 'var(--charcoal)', marginBottom: '0.25rem' }}>{name}</h3>
               <div style={{ color: 'var(--amber)', fontSize: '0.8rem', fontFamily: 'var(--font-mono)', letterSpacing: '0.05em', marginBottom: '1rem' }}>

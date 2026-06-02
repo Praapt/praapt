@@ -1,7 +1,7 @@
 const stats = [
-  { value: '324', label: 'meals today' },
-  { value: '18,420', label: 'meals in 2026' },
-  { value: '42', label: 'active vendors' },
+  { value: '---', label: 'meals today' },
+  { value: '---', label: 'meals in 2026' },
+  { value: '---', label: 'active vendors' },
 ]
 
 export default function LiveTicker() {
