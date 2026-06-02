@@ -1,33 +1,33 @@
 const team = [
   {
-    name: 'Krishnan Raghunathan',
-    initials: 'KR',
-    affiliation: 'Founder',
-    contribution: 'Sustainable infrastructure veteran with 25+ years across consumer goods, Silicon Valley, McKinsey, and Macquarie, leading platform vision and strategy.',
-  },
-  {
     name: 'Prof. Sanjay Sarma',
     initials: 'SS',
     affiliation: 'Founder',
-    contribution: 'Senior Professor at MIT, AI and battery technology expert, co-founder of Auto-ID Center pioneering RFID standards, guiding technology development for Praapt.',
+    contribution: 'MIT professor, educator, and technology innovator helping shape Praapt\'s vision through expertise in AI, digital transformation, and scalable systems.',
+  },
+  {
+    name: 'Krishnan Raghunathan',
+    initials: 'KR',
+    affiliation: 'Founder',
+    contribution: 'Combining decades of experience in technology, finance, and sustainable infrastructure to build platforms that expand opportunity and create measurable impact.',
   },
   {
     name: 'Nagenendra Kolluru',
     initials: 'NK',
     affiliation: 'Platform Lead',
-    contribution: 'Leading the efforts for Praapt platform development and core infrastructure.',
+    contribution: 'Leading the development of the technology platform that enables Praapt\'s mission at scale.',
   },
   {
     name: 'Darshan Veershetty',
     initials: 'DV',
     affiliation: 'Design Lead',
-    contribution: 'Leading the user interface and user experience design, website design, and visual identity.',
+    contribution: 'Crafting user-centered experiences and a distinctive visual identity for the Praapt community.',
   },
   {
     name: 'Anand Chillar',
     initials: 'AC',
     affiliation: 'Architecture Lead',
-    contribution: 'Architect building out the first generation platform with focus on system design and scalability.',
+    contribution: 'Architecting a secure, scalable foundation that supports sustainable growth and innovation.',
   },
 ]
 
