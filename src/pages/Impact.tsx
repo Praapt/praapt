@@ -1,8 +1,8 @@
 const stats = [
-  { value: '18,420', label: 'Meals served in 2026', sub: 'Across all active pools' },
-  { value: '1,284', label: 'Active beneficiaries', sub: 'Biometrically verified' },
-  { value: '42', label: 'Vendor partners', sub: 'Across 7 cities' },
-  { value: '₹7.4L', label: 'Donor funds deployed', sub: 'Since programme launch' },
+  { value: '---', label: 'Meals served in 2026', sub: 'Across all active pools' },
+  { value: '---', label: 'Active beneficiaries', sub: 'Biometrically verified' },
+  { value: '---', label: 'Vendor partners', sub: 'Across 7 cities' },
+  { value: '---', label: 'Donor funds deployed', sub: 'Since programme launch' },
 ]
 
 const principles = [

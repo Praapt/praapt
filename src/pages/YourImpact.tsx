@@ -22,10 +22,10 @@ export default function YourImpact() {
       {/* Stats row */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '1rem', marginBottom: '2.5rem' }}>
         {[
-          { label: 'Meals funded', value: totalMeals },
-          { label: 'Amount contributed', value: `₹${totalSpent.toLocaleString('en-IN')}` },
-          { label: 'Unique beneficiaries', value: 31 },
-          { label: 'Active since', value: 'Jan 2026' },
+          { label: 'Meals funded', value: '---' },
+          { label: 'Amount contributed', value: '---' },
+          { label: 'Unique beneficiaries', value: '---' },
+          { label: 'Active since', value: '---' },
         ].map(({ label, value }) => (
           <div key={label} style={{
             background: 'white',
